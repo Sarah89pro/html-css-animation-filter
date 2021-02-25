@@ -95,7 +95,7 @@
 }
 
 /*ESERCIZIO 11*/
-.ex-11-icon {
+.ex-11-icon:hover {
     animation: spin-two 2s ease-in infinite alternate-reverse;
 }
 
