@@ -87,7 +87,21 @@
 .ex-10-icon {
     animation: spin 2s linear infinite forwards;
 }
+
 @keyframes spin {
     0% {
-        transform: rotate(360deg);
+        transform:rotate(360deg);
+    }
 }
+
+/*ESERCIZIO 11*/
+.ex-11-icon {
+    animation: spin-two 2s ease-in infinite alternate-reverse;
+}
+
+@keyframes spin-two {
+    0% {
+        transform:rotate(270deg);
+    }
+}
+
