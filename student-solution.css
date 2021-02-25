@@ -96,12 +96,19 @@
 
 /*ESERCIZIO 11*/
 .ex-11-icon:hover {
-    animation: spin-two 2s ease-in infinite alternate-reverse;
+    animation: spin-two 2s linear infinite;
 }
 
 @keyframes spin-two {
     0% {
+        transform:rotate(1);
+    }
+    75% {
         transform:rotate(270deg);
     }
+    100% {
+        transform:rotate(1);
+    }
+
 }
 
